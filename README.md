@@ -19,7 +19,7 @@ Page containing a product catalogue.
 ➡️ HTML  
 ➡️ CSS  
 ➡️ JavaScript  
-📍 Highlight the use of forEach and filter
+📍 Highlight the use of forEach() and filter()
 
 ## Functionalities
 
