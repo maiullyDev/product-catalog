@@ -14,7 +14,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main></main>
+    <main>
+      <div class="container">
+        <h1>Catálogo de Produtos</h1>
+        <div class="filters">
+          <label for="filter">Filtrar por categoria:</label>
+          <select id="filter">
+            <option value="all">Todos</option>
+            <option value="vestidos">Vestidos</option>
+            <option value="calcados">Calçados</option>
+            <option value="camisas">Camisas</option>
+          </select>
+        </div>
+      </div>
+      <div class="products"></div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
