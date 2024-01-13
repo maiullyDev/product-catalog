@@ -59,3 +59,14 @@ function displayProducts(products) {
     productsContainer.appendChild(productDiv);
   });
 }
+
+function filterProducts(category) {
+  if (category === "all") {
+    displayProducts(products);
+  } else {
+    const filteredProducts = products.filter(
+      (product) => product.category === category
+    );
+    displayProducts(filteredProducts);
+  }
+}
