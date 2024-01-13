@@ -18,8 +18,7 @@ Page containing a product catalogue.
 
 ➡️ HTML  
 ➡️ CSS  
-➡️ JavaScript  
-📍 Highlight the use of forEach() and filter()
+➡️ JavaScript
 
 ## Functionalities
 
