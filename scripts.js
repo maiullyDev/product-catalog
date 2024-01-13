@@ -70,3 +70,9 @@ function filterProducts(category) {
     displayProducts(filteredProducts);
   }
 }
+
+const filterSelect = document.getElementById("filter");
+filterSelect.addEventListener("change", function () {
+  const selectedCategory = this.value;
+  filterProducts(selectedCategory);
+});
