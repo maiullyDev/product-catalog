@@ -76,3 +76,5 @@ filterSelect.addEventListener("change", function () {
   const selectedCategory = this.value;
   filterProducts(selectedCategory);
 });
+
+displayProducts(products);
