@@ -12,7 +12,7 @@
 
 Page containing a product catalogue.
 
-![Page containing a product catalog with the title "Product Catalog" at the top, a product filter below, and different products aligned in 3 columns.](./assets/readmeImgs/print-catalog.png)
+![Page containing a product catalog with the title "Product Catalog" at the top, a product filter below, and different products aligned in 3 columns.](./assets/readmeImages/print-catalog.png)
 
 ## Technologies
 
@@ -27,4 +27,4 @@ Page containing a product catalogue.
 
 On the page it is possible to filter by product category, this was done through the use of forEach() to add products dynamically and display them on the page, and through the use of filter() to return an array with all the elements that meet the filter condition.
 
-![Video showing how the filter works and responsiveness](./assets/readmeImgs/catalog-gif.gif)
+![Video showing how the filter works and responsiveness](./assets/readmeImages/catalog-gif.gif)
