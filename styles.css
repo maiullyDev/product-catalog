@@ -57,3 +57,22 @@ body {
   width: 100%;
   height: 70%;
 }
+
+@media only screen and (max-width: 479px) {
+  .container h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .container h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 368px) {
+  .container h1 {
+    font-size: 28px;
+  }
+  .filters label {
+    display: none;
+  }
+}
