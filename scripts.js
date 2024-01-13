@@ -42,3 +42,20 @@ const products = [
     image: "/assets/productImages/sweatshirt.png",
   },
 ];
+
+function displayProducts(products) {
+  const productsContainer = document.querySelector(".products");
+  productsContainer.innerHTML = "";
+
+  products.forEach((product) => {
+    const productDiv = document.createElement("div");
+    productDiv.classList.add("product");
+    productDiv.innerHTML = `
+          <img src=${product.image} alt="">
+          <h3>${product.name}</h3>
+          <p><strong>R$${product.price.toFixed(2)}</strong></p>
+          <p>em 12x de R$ ${(product.price / 12).toFixed(2)}<p/>
+        `;
+    productsContainer.appendChild(productDiv);
+  });
+}
